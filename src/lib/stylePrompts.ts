@@ -57,55 +57,55 @@ export type StyleDefinition = {
 };
 
 export const STYLE_DEFINITIONS: StyleDefinition[] = [
-  // ===== Estilos / Cenários =====
+  // ===== Estilos / Eventos Glamour =====
   {
-    name: "Visão Empresarial",
+    name: "Tapete Vermelho",
     category: "Estilos",
-    description: "Terno elegante em escritório corporativo",
+    description: "Premiação de cinema, flashes e paparazzi",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in elegant business attire (well-tailored suit or blazer). Place them in a modern corporate office background with soft professional lighting. Keep the same pose and framing as the original photo whenever possible.",
+      "SCENE CHANGE ONLY: Dress the same person in a red-carpet look — a floor-length gala gown with shimmering embellishments, or an impeccable black tuxedo with satin bow tie. Place them on the red carpet of a film awards event, with a corridor of photographers, blurred logo backdrop and camera flashes (bokeh). Dramatic cinematic lighting from paparazzi flashes. Half-body framing.",
   },
   {
-    name: "Alma Criativa",
+    name: "Gala Black-Tie",
     category: "Estilos",
-    description: "Look boêmio em estúdio de arte",
+    description: "Salão de baile com lustres de cristal",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in bohemian artistic clothing. Place them in an artistic setting with colorful murals or an art studio background, with moody warm lighting. Keep the same pose and framing as the original photo whenever possible.",
+      "SCENE CHANGE ONLY: Dress the same person in sophisticated black-tie attire — a velvet or silk gala gown, or a classic tuxedo with satin lapel. Place them in a luxurious ballroom with crystal chandeliers, marble columns and blurred champagne flutes in the background. Warm, elegant amber lighting. Half-body framing.",
   },
   {
-    name: "Vibração Urbana",
+    name: "Met Gala Couture",
     category: "Estilos",
-    description: "Streetwear em cidade com neon",
+    description: "Alta-costura editorial em escadaria icônica",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in trendy streetwear (leather jacket or modern urban casual). Place them in a vibrant city street with neon lights or tasteful graffiti in the background. Keep the same pose and framing as the original photo whenever possible. Do NOT change the face — only wardrobe and environment.",
+      "SCENE CHANGE ONLY: Dress the same person in bold Met Gala–style haute couture — a sculptural editorial piece with embroidery, feathers or architectural structure. Place them on an iconic museum staircase with dramatic golden lighting and blurred paparazzi in the background. Strong editorial lighting with high contrast. Half-body framing.",
   },
   {
-    name: "Essência Natural",
+    name: "Festa em Iate — Mônaco",
     category: "Estilos",
-    description: "Casual em ambiente natural",
+    description: "Resort chic no porto de Mônaco",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in comfortable casual clothing. Place them in a beautiful natural environment with soft natural lighting (beach, forest, or garden). Keep the same pose and framing as the original photo whenever possible.",
+      "SCENE CHANGE ONLY: Dress the same person in luxury resort chic — a flowing silk dress or white blazer over an open shirt, elegant sunglasses. Place them on the deck of a mega yacht in Monaco harbor, with the blue Mediterranean sea and Riviera skyline in the background. Golden late-afternoon natural light. Half-body framing.",
   },
   {
-    name: "Glamour Fashion",
+    name: "Baile de Máscaras",
     category: "Estilos",
-    description: "Alta-costura em estúdio dramático",
+    description: "Palazzo veneziano à luz de velas",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in elegant haute couture fashion. Place them in a sophisticated studio setting with dramatic fashion lighting. Keep the same pose and framing as the original photo whenever possible.",
+      "SCENE CHANGE ONLY: Dress the same person in a Venetian masquerade ball costume — baroque gown with corset or dark velvet suit, ornate mask with gold detailing covering the eyes. Place them in a candlelit Venetian palazzo with gilded mirrors and damask curtains in the background. Warm candlelight and chandelier glow. Half-body framing.",
   },
   {
-    name: "Home Office",
+    name: "After-Party VIP",
     category: "Estilos",
-    description: "Smart casual em escritório em casa",
+    description: "Área VIP com neon e champanhe",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in smart casual clothing (button-down shirt or blouse). Place them in a modern home office with bookshelf, plants, and natural window lighting. Keep the same pose and framing as the original photo whenever possible.",
+      "SCENE CHANGE ONLY: Dress the same person in a sophisticated night-party look — a metallic sparkling dress or slim black suit with unbuttoned shirt. Place them in a luxury nightclub VIP area, with pink and purple neon, velvet sofas and champagne bottles with sparklers in the background. Dramatic neon lighting with bokeh. Half-body framing.",
   },
   {
-    name: "Estilo de Vida",
+    name: "Rooftop com Champanhe",
     category: "Estilos",
-    description: "Cena cotidiana acolhedora",
+    description: "Cocktail no rooftop com skyline",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in relaxed casual clothing. Place them in a cozy lifestyle setting like a cafe, living room, or outdoor leisure space with warm natural lighting. Keep the same pose and framing as the original photo whenever possible. Do NOT change the face — only wardrobe and environment.",
+      "SCENE CHANGE ONLY: Dress the same person in elegant cocktail attire — a satin midi dress or well-tailored suit, holding a champagne flute. Place them on a rooftop bar with an illuminated city skyline at night in the background, hanging bistro lights and golden bokeh. Warm, sophisticated amber lighting. Half-body framing.",
   },
 
   // ===== Poses & Expressões — fundo verde (chroma key) =====
@@ -142,30 +142,16 @@ export const STYLE_DEFINITIONS: StyleDefinition[] = [
   {
     name: "Sorriso — Ambiente",
     category: "Poses & Expressões",
-    description: "Sorriso natural em ambiente real",
+    description: "Sorriso natural em ambiente elegante",
     prompt:
-      "POSE & EXPRESSION CHANGE: Keep the same person and their current outfit. Change the expression to a warm, genuine smile, looking at the camera. Place them in a beautiful real environment (sunlit park, modern cafe interior, or urban plaza) with soft natural lighting and pleasant bokeh background. Half-body framing.",
-  },
-  {
-    name: "Sério Profissional — Ambiente",
-    category: "Poses & Expressões",
-    description: "Pose séria em escritório real",
-    prompt:
-      "POSE & EXPRESSION CHANGE: Keep the same person and their current outfit. Change the expression to a serious, confident professional look. Place them in a modern office or studio environment with soft, natural window lighting and shallow depth of field. Half-body framing.",
-  },
-  {
-    name: "Mão no Rosto — Ambiente",
-    category: "Poses & Expressões",
-    description: "Pose pensativa em ambiente real",
-    prompt:
-      "POSE & EXPRESSION CHANGE: Keep the same person and their current outfit. Change the pose to one hand lightly touching the chin or cheek, with a soft, thoughtful expression and gentle smile. Place them in a warm real environment (cafe near a window, library, or sunlit room) with cinematic natural lighting and bokeh. Half-body framing.",
+      "POSE & EXPRESSION CHANGE: Keep the same person and their current outfit. Change the expression to a warm, genuine smile, looking at the camera. Place them in a beautiful real environment (hotel lobby, illuminated ballroom or terrace) with soft natural lighting and pleasant bokeh background. Half-body framing.",
   },
   {
     name: "Olhar Lateral — Ambiente",
     category: "Poses & Expressões",
-    description: "Perfil 3/4 em ambiente real",
+    description: "Perfil 3/4 em ambiente sofisticado",
     prompt:
-      "POSE & EXPRESSION CHANGE: Keep the same person and their current outfit. Change the pose to a 3/4 angle, looking off-camera with a calm, contemplative expression. Place them in a beautiful real outdoor environment (golden-hour street, park, or rooftop) with cinematic natural lighting and creamy bokeh. Half-body framing.",
+      "POSE & EXPRESSION CHANGE: Keep the same person and their current outfit. Change the pose to a 3/4 angle, looking off-camera with a calm, contemplative expression. Place them in a sophisticated real environment (golden-hour street, rooftop or event hall) with cinematic natural lighting and creamy bokeh. Half-body framing.",
   },
   {
     name: "Fundo Transparente",

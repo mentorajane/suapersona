@@ -51,55 +51,34 @@ export type StyleDefinition = {
 };
 
 export const STYLE_DEFINITIONS: StyleDefinition[] = [
-  // ===== Estilos / Eventos Glamour =====
+  // ===== Estilos / Lifestyle & Editorial =====
   {
-    name: "Tapete Vermelho",
+    name: "Tablet & Celular",
     category: "Estilos",
-    description: "Premiação de cinema, flashes e paparazzi",
+    description: "Home office moderno com dispositivos",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in a red-carpet look — a floor-length gala gown with shimmering embellishments, or an impeccable black tuxedo with satin bow tie. Place them on the red carpet of a film awards event, with a corridor of photographers, blurred logo backdrop and camera flashes (bokeh). Dramatic cinematic lighting from paparazzi flashes. Half-body framing.",
+      "SCENE CHANGE ONLY: Dress the same person in modern smart-casual tech attire — a crisp shirt or knit sweater. Place them in a bright contemporary home office, holding a tablet and a smartphone, with a minimalist desk, laptop and soft natural window light in the background. Clean, airy daylight lighting. Half-body framing.",
   },
   {
-    name: "Gala Black-Tie",
+    name: "Cafeteria Elegante",
     category: "Estilos",
-    description: "Salão de baile com lustres de cristal",
+    description: "Cafeteria artesanal com xícara de café",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in sophisticated black-tie attire — a velvet or silk gala gown, or a classic tuxedo with satin lapel. Place them in a luxurious ballroom with crystal chandeliers, marble columns and blurred champagne flutes in the background. Warm, elegant amber lighting. Half-body framing.",
+      "SCENE CHANGE ONLY: Dress the same person in chic everyday wear — a stylish coat or elegant blouse. Place them in an upscale artisanal café with warm wood tones, hanging plants and a blurred coffee bar, holding a ceramic coffee cup. Warm, cozy ambient lighting. Half-body framing.",
   },
   {
-    name: "Met Gala Couture",
+    name: "Studio Cinematográfico",
     category: "Estilos",
-    description: "Alta-costura editorial em escadaria icônica",
+    description: "Estúdio com iluminação cinematográfica",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in bold Met Gala–style haute couture — a sculptural editorial piece with embroidery, feathers or architectural structure. Place them on an iconic museum staircase with dramatic golden lighting and blurred paparazzi in the background. Strong editorial lighting with high contrast. Half-body framing.",
+      "SCENE CHANGE ONLY: Dress the same person in refined editorial attire — a tailored blazer or elegant dress. Place them in a professional photography studio with cinematic lighting: large softbox key light, rim light and dark seamless backdrop, subtle atmospheric haze. Dramatic, controlled studio lighting with deep shadows and highlights. Half-body framing.",
   },
   {
-    name: "Festa em Iate — Mônaco",
+    name: "Alfaiataria Editorial",
     category: "Estilos",
-    description: "Resort chic no porto de Mônaco",
+    description: "Alfaiataria power estilo O Diabo Veste Prada",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in luxury resort chic — a flowing silk dress or white blazer over an open shirt, elegant sunglasses. Place them on the deck of a mega yacht in Monaco harbor, with the blue Mediterranean sea and Riviera skyline in the background. Golden late-afternoon natural light. Half-body framing.",
-  },
-  {
-    name: "Baile de Máscaras",
-    category: "Estilos",
-    description: "Palazzo veneziano à luz de velas",
-    prompt:
-      "SCENE CHANGE ONLY: Dress the same person in a Venetian masquerade ball costume — baroque gown with corset or dark velvet suit, ornate mask with gold detailing covering the eyes. Place them in a candlelit Venetian palazzo with gilded mirrors and damask curtains in the background. Warm candlelight and chandelier glow. Half-body framing.",
-  },
-  {
-    name: "After-Party VIP",
-    category: "Estilos",
-    description: "Área VIP com neon e champanhe",
-    prompt:
-      "SCENE CHANGE ONLY: Dress the same person in a sophisticated night-party look — a metallic sparkling dress or slim black suit with unbuttoned shirt. Place them in a luxury nightclub VIP area, with pink and purple neon, velvet sofas and champagne bottles with sparklers in the background. Dramatic neon lighting with bokeh. Half-body framing.",
-  },
-  {
-    name: "Rooftop com Champanhe",
-    category: "Estilos",
-    description: "Cocktail no rooftop com skyline",
-    prompt:
-      "SCENE CHANGE ONLY: Dress the same person in elegant cocktail attire — a satin midi dress or well-tailored suit, holding a champagne flute. Place them on a rooftop bar with an illuminated city skyline at night in the background, hanging bistro lights and golden bokeh. Warm, sophisticated amber lighting. Half-body framing.",
+      "SCENE CHANGE ONLY: Dress the same person in high-fashion power tailoring à la The Devil Wears Prada — a perfectly fitted designer suit with sharp shoulders, structured silhouette, premium fabric, statement accessories (leather gloves, structured bag, heels or oxfords). Place them in a sleek magazine editorial setting: marble lobby with floor-to-ceiling windows, fashion-week atmosphere, blurred staff in background. Crisp, high-contrast editorial lighting. Half-body framing.",
   },
 
   // ===== Poses & Expressões — fundo verde (chroma key) =====

@@ -150,34 +150,22 @@ serve(async (req) => {
     const IDENTITY_LOCK = "ABSOLUTE IDENTITY LOCK — HIGHEST PRIORITY: This is a photo EDIT of the reference image, NOT the creation of a new person. The output MUST be the SAME HUMAN BEING from the reference photo, pixel-faithful to their real face and body. STRICTLY FORBIDDEN: do NOT beautify, slim, thicken, age, de-age, smooth skin, remove blemishes, whiten teeth, enlarge eyes, reshape nose, sharpen jaw, alter ethnicity, alter gender expression, change body proportions, change height, change weight, change muscle tone, change breast/chest size, change hip size, change hand/finger shape, change tattoos or scars, change eye color, change hair color/length/texture/hairline, add or remove facial hair, or apply any 'AI beauty filter'. PRESERVE EXACTLY (100% fidelity): face shape, skull proportions, forehead, jawline, chin, cheekbones, nose shape/size/nostrils, lip shape and thickness, philtrum, mouth width, teeth, ear shape and position, eye shape/spacing/color/eyelids/eyebrows, every freckle/mole/scar/wrinkle/birthmark, skin tone and texture, hair (color, length, style, hairline, parting), facial hair, neck, shoulders, torso, arms, hands, waist, hips, legs, overall body type and silhouette. A close friend or family member must instantly recognize the person in the output as the exact same individual from the reference. Only the clothing, pose (when specified), background, and lighting may change. If in doubt, err on the side of copying the original face and body IDENTICALLY. ";
 
     const styles = [
-      // Estilos — Eventos Glamour
+      // Estilos — Lifestyle & Editorial
       {
-        name: "Tapete Vermelho",
-        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in a red-carpet look — a floor-length gala gown with shimmering embellishments, or an impeccable black tuxedo with satin bow tie. Place them on the red carpet of a film awards event, with a corridor of photographers, blurred logo backdrop and camera flashes (bokeh). Dramatic cinematic lighting from paparazzi flashes. Half-body framing."
+        name: "Tablet & Celular",
+        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in modern smart-casual tech attire — a crisp shirt or knit sweater. Place them in a bright contemporary home office, holding a tablet and a smartphone, with a minimalist desk, laptop and soft natural window light in the background. Clean, airy daylight lighting. Half-body framing."
       },
       {
-        name: "Gala Black-Tie",
-        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in sophisticated black-tie attire — a velvet or silk gala gown, or a classic tuxedo with satin lapel. Place them in a luxurious ballroom with crystal chandeliers, marble columns and blurred champagne flutes in the background. Warm, elegant amber lighting. Half-body framing."
+        name: "Cafeteria Elegante",
+        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in chic everyday wear — a stylish coat or elegant blouse. Place them in an upscale artisanal café with warm wood tones, hanging plants and a blurred coffee bar, holding a ceramic coffee cup. Warm, cozy ambient lighting. Half-body framing."
       },
       {
-        name: "Met Gala Couture",
-        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in bold Met Gala–style haute couture — a sculptural editorial piece with embroidery, feathers or architectural structure. Place them on an iconic museum staircase with dramatic golden lighting and blurred paparazzi in the background. Strong editorial lighting with high contrast. Half-body framing."
+        name: "Studio Cinematográfico",
+        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in refined editorial attire — a tailored blazer or elegant dress. Place them in a professional photography studio with cinematic lighting: large softbox key light, rim light and dark seamless backdrop, subtle atmospheric haze. Dramatic, controlled studio lighting with deep shadows and highlights. Half-body framing."
       },
       {
-        name: "Festa em Iate — Mônaco",
-        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in luxury resort chic — a flowing silk dress or white blazer over an open shirt, elegant sunglasses. Place them on the deck of a mega yacht in Monaco harbor, with the blue Mediterranean sea and Riviera skyline in the background. Golden late-afternoon natural light. Half-body framing."
-      },
-      {
-        name: "Baile de Máscaras",
-        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in a Venetian masquerade ball costume — baroque gown with corset or dark velvet suit, ornate mask with gold detailing covering the eyes. Place them in a candlelit Venetian palazzo with gilded mirrors and damask curtains in the background. Warm candlelight and chandelier glow. Half-body framing."
-      },
-      {
-        name: "After-Party VIP",
-        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in a sophisticated night-party look — a metallic sparkling dress or slim black suit with unbuttoned shirt. Place them in a luxury nightclub VIP area, with pink and purple neon, velvet sofas and champagne bottles with sparklers in the background. Dramatic neon lighting with bokeh. Half-body framing."
-      },
-      {
-        name: "Rooftop com Champanhe",
-        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in elegant cocktail attire — a satin midi dress or well-tailored suit, holding a champagne flute. Place them on a rooftop bar with an illuminated city skyline at night in the background, hanging bistro lights and golden bokeh. Warm, sophisticated amber lighting. Half-body framing."
+        name: "Alfaiataria Editorial",
+        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in high-fashion power tailoring à la The Devil Wears Prada — a perfectly fitted designer suit with sharp shoulders, structured silhouette, premium fabric, statement accessories (leather gloves, structured bag, heels or oxfords). Place them in a sleek magazine editorial setting: marble lobby with floor-to-ceiling windows, fashion-week atmosphere, blurred staff in background. Crisp, high-contrast editorial lighting. Half-body framing."
       },
       // Poses & Expressões — chroma key
       {

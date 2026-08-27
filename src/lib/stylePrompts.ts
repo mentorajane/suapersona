@@ -10,20 +10,14 @@ export const IDENTITY_LOCK_PT =
 
 // Tradução PT-BR dos prompts de cena por nome de estilo
 export const STYLE_PROMPTS_PT: Record<string, string> = {
-  "Tapete Vermelho":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com um look de tapete vermelho — vestido longo de gala com aplicações brilhantes ou smoking preto impecável com gravata borboleta. Coloque-a em um tapete vermelho de premiação de cinema, com corredor de fotógrafos, painel de logos ao fundo desfocado e flashes de câmeras (bokeh). Iluminação cinematográfica dramática vinda dos flashes. Enquadramento de meio corpo.",
-  "Gala Black-Tie":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com traje black-tie sofisticado — vestido de gala em veludo/seda ou smoking clássico com lapela de cetim. Coloque-a em um salão de baile luxuoso com lustres de cristal, colunas de mármore e taças de champanhe ao fundo desfocado. Iluminação âmbar quente e elegante. Enquadramento de meio corpo.",
-  "Met Gala Couture":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com alta-costura ousada estilo Met Gala — peça escultural editorial com bordados, plumas ou estrutura arquitetônica. Coloque-a em uma escadaria icônica de museu com iluminação dourada dramática e paparazzi ao fundo desfocado. Iluminação editorial forte com contraste. Enquadramento de meio corpo.",
-  "Festa em Iate — Mônaco":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com resort chic de luxo — vestido de seda fluido ou blazer branco com camisa aberta, óculos escuros elegantes. Coloque-a no deque de um mega iate no porto de Mônaco, com o mar mediterrâneo azul e a Riviera ao fundo. Luz natural dourada do fim de tarde. Enquadramento de meio corpo.",
-  "Baile de Máscaras":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com traje de baile de máscaras veneziano — vestido barroco com corset ou terno de veludo escuro, máscara ornamentada com detalhes dourados cobrindo os olhos. Coloque-a em um palazzo veneziano à luz de velas, com espelhos dourados e cortinas de damasco ao fundo. Iluminação quente de velas e candelabros. Enquadramento de meio corpo.",
-  "After-Party VIP":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com look de festa noturna sofisticado — vestido metalizado com brilho ou terno preto slim com camisa desabotoada. Coloque-a em uma área VIP de nightclub de luxo, com neon rosa e roxo, sofás de veludo e garrafas de champanhe com sparklers ao fundo. Iluminação dramática de neon com bokeh. Enquadramento de meio corpo.",
-  "Rooftop com Champanhe":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com traje cocktail elegante — vestido midi de cetim ou terno bem cortado, segurando uma taça de champanhe. Coloque-a em um rooftop bar com skyline iluminada da cidade à noite ao fundo, luzes de bistrô penduradas e bokeh dourado. Iluminação âmbar quente e sofisticada. Enquadramento de meio corpo.",
+  "Tablet & Celular":
+    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com look smart-casual moderno — camisa bem cortada ou blazer de malha. Coloque-a em um home office contemporâneo e iluminado, segurando um tablet e um celular, com mesa minimalista, notebook e luz natural suave da janela ao fundo. Iluminação diurna limpa e arejada. Enquadramento de meio corpo.",
+  "Cafeteria Elegante":
+    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com look chic do dia a dia — casaco estiloso ou blusa elegante. Coloque-a em uma cafeteria artesanal sofisticada com tons de madeira quente, plantas penduradas e bar de café desfocado ao fundo, segurando uma xícara de café de cerâmica. Iluminação ambiente quente e aconchegante. Enquadramento de meio corpo.",
+  "Studio Cinematográfico":
+    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com traje editorial refinado — blazer alfaiatarizado ou vestido elegante. Coloque-a em um estúdio fotográfico profissional com iluminação cinematográfica: softbox grande como luz principal, contraluz e fundo infinito escuro, com leve névoa atmosférica. Iluminação de estúdio dramática e controlada, com sombras e realces profundos. Enquadramento de meio corpo.",
+  "Alfaiataria Editorial":
+    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com alfaiataria de alto luxo estilo 'O Diabo Veste Prada' — terno de grife perfeitamente ajustado com ombros estruturados, silhueta marcante, tecido premium, acessórios de impacto (luvas de couro, bolsa estruturada, saltos ou oxfords). Coloque-a em um cenário editorial de revista de moda: lobby de mármore com janelas do piso ao teto, atmosfera de semana de moda, equipe desfocada ao fundo. Iluminação editorial nítida e de alto contraste. Enquadramento de meio corpo.",
   "Sorriso — Fundo Verde":
     "MUDANÇA DE POSE E EXPRESSÃO: Mantenha a mesma pessoa e o figurino atual. Mude a expressão para um sorriso natural e caloroso, olhando diretamente para a câmera. Coloque-a sobre um fundo SÓLIDO CHROMA KEY VERDE (#00B140), iluminado uniformemente. Iluminação de estúdio com softbox no rosto. Enquadramento de meio corpo.",
   "Sério Profissional — Fundo Verde":
@@ -57,55 +51,34 @@ export type StyleDefinition = {
 };
 
 export const STYLE_DEFINITIONS: StyleDefinition[] = [
-  // ===== Estilos / Eventos Glamour =====
+  // ===== Estilos / Lifestyle & Editorial =====
   {
-    name: "Tapete Vermelho",
+    name: "Tablet & Celular",
     category: "Estilos",
-    description: "Premiação de cinema, flashes e paparazzi",
+    description: "Home office moderno com dispositivos",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in a red-carpet look — a floor-length gala gown with shimmering embellishments, or an impeccable black tuxedo with satin bow tie. Place them on the red carpet of a film awards event, with a corridor of photographers, blurred logo backdrop and camera flashes (bokeh). Dramatic cinematic lighting from paparazzi flashes. Half-body framing.",
+      "SCENE CHANGE ONLY: Dress the same person in modern smart-casual tech attire — a crisp shirt or knit sweater. Place them in a bright contemporary home office, holding a tablet and a smartphone, with a minimalist desk, laptop and soft natural window light in the background. Clean, airy daylight lighting. Half-body framing.",
   },
   {
-    name: "Gala Black-Tie",
+    name: "Cafeteria Elegante",
     category: "Estilos",
-    description: "Salão de baile com lustres de cristal",
+    description: "Cafeteria artesanal com xícara de café",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in sophisticated black-tie attire — a velvet or silk gala gown, or a classic tuxedo with satin lapel. Place them in a luxurious ballroom with crystal chandeliers, marble columns and blurred champagne flutes in the background. Warm, elegant amber lighting. Half-body framing.",
+      "SCENE CHANGE ONLY: Dress the same person in chic everyday wear — a stylish coat or elegant blouse. Place them in an upscale artisanal café with warm wood tones, hanging plants and a blurred coffee bar, holding a ceramic coffee cup. Warm, cozy ambient lighting. Half-body framing.",
   },
   {
-    name: "Met Gala Couture",
+    name: "Studio Cinematográfico",
     category: "Estilos",
-    description: "Alta-costura editorial em escadaria icônica",
+    description: "Estúdio com iluminação cinematográfica",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in bold Met Gala–style haute couture — a sculptural editorial piece with embroidery, feathers or architectural structure. Place them on an iconic museum staircase with dramatic golden lighting and blurred paparazzi in the background. Strong editorial lighting with high contrast. Half-body framing.",
+      "SCENE CHANGE ONLY: Dress the same person in refined editorial attire — a tailored blazer or elegant dress. Place them in a professional photography studio with cinematic lighting: large softbox key light, rim light and dark seamless backdrop, subtle atmospheric haze. Dramatic, controlled studio lighting with deep shadows and highlights. Half-body framing.",
   },
   {
-    name: "Festa em Iate — Mônaco",
+    name: "Alfaiataria Editorial",
     category: "Estilos",
-    description: "Resort chic no porto de Mônaco",
+    description: "Alfaiataria power estilo O Diabo Veste Prada",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in luxury resort chic — a flowing silk dress or white blazer over an open shirt, elegant sunglasses. Place them on the deck of a mega yacht in Monaco harbor, with the blue Mediterranean sea and Riviera skyline in the background. Golden late-afternoon natural light. Half-body framing.",
-  },
-  {
-    name: "Baile de Máscaras",
-    category: "Estilos",
-    description: "Palazzo veneziano à luz de velas",
-    prompt:
-      "SCENE CHANGE ONLY: Dress the same person in a Venetian masquerade ball costume — baroque gown with corset or dark velvet suit, ornate mask with gold detailing covering the eyes. Place them in a candlelit Venetian palazzo with gilded mirrors and damask curtains in the background. Warm candlelight and chandelier glow. Half-body framing.",
-  },
-  {
-    name: "After-Party VIP",
-    category: "Estilos",
-    description: "Área VIP com neon e champanhe",
-    prompt:
-      "SCENE CHANGE ONLY: Dress the same person in a sophisticated night-party look — a metallic sparkling dress or slim black suit with unbuttoned shirt. Place them in a luxury nightclub VIP area, with pink and purple neon, velvet sofas and champagne bottles with sparklers in the background. Dramatic neon lighting with bokeh. Half-body framing.",
-  },
-  {
-    name: "Rooftop com Champanhe",
-    category: "Estilos",
-    description: "Cocktail no rooftop com skyline",
-    prompt:
-      "SCENE CHANGE ONLY: Dress the same person in elegant cocktail attire — a satin midi dress or well-tailored suit, holding a champagne flute. Place them on a rooftop bar with an illuminated city skyline at night in the background, hanging bistro lights and golden bokeh. Warm, sophisticated amber lighting. Half-body framing.",
+      "SCENE CHANGE ONLY: Dress the same person in high-fashion power tailoring à la The Devil Wears Prada — a perfectly fitted designer suit with sharp shoulders, structured silhouette, premium fabric, statement accessories (leather gloves, structured bag, heels or oxfords). Place them in a sleek magazine editorial setting: marble lobby with floor-to-ceiling windows, fashion-week atmosphere, blurred staff in background. Crisp, high-contrast editorial lighting. Half-body framing.",
   },
 
   // ===== Poses & Expressões — fundo verde (chroma key) =====

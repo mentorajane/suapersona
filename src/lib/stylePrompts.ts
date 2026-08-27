@@ -10,20 +10,14 @@ export const IDENTITY_LOCK_PT =
 
 // Tradução PT-BR dos prompts de cena por nome de estilo
 export const STYLE_PROMPTS_PT: Record<string, string> = {
-  "Tapete Vermelho":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com um look de tapete vermelho — vestido longo de gala com aplicações brilhantes ou smoking preto impecável com gravata borboleta. Coloque-a em um tapete vermelho de premiação de cinema, com corredor de fotógrafos, painel de logos ao fundo desfocado e flashes de câmeras (bokeh). Iluminação cinematográfica dramática vinda dos flashes. Enquadramento de meio corpo.",
-  "Gala Black-Tie":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com traje black-tie sofisticado — vestido de gala em veludo/seda ou smoking clássico com lapela de cetim. Coloque-a em um salão de baile luxuoso com lustres de cristal, colunas de mármore e taças de champanhe ao fundo desfocado. Iluminação âmbar quente e elegante. Enquadramento de meio corpo.",
-  "Met Gala Couture":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com alta-costura ousada estilo Met Gala — peça escultural editorial com bordados, plumas ou estrutura arquitetônica. Coloque-a em uma escadaria icônica de museu com iluminação dourada dramática e paparazzi ao fundo desfocado. Iluminação editorial forte com contraste. Enquadramento de meio corpo.",
-  "Festa em Iate — Mônaco":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com resort chic de luxo — vestido de seda fluido ou blazer branco com camisa aberta, óculos escuros elegantes. Coloque-a no deque de um mega iate no porto de Mônaco, com o mar mediterrâneo azul e a Riviera ao fundo. Luz natural dourada do fim de tarde. Enquadramento de meio corpo.",
-  "Baile de Máscaras":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com traje de baile de máscaras veneziano — vestido barroco com corset ou terno de veludo escuro, máscara ornamentada com detalhes dourados cobrindo os olhos. Coloque-a em um palazzo veneziano à luz de velas, com espelhos dourados e cortinas de damasco ao fundo. Iluminação quente de velas e candelabros. Enquadramento de meio corpo.",
-  "After-Party VIP":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com look de festa noturna sofisticado — vestido metalizado com brilho ou terno preto slim com camisa desabotoada. Coloque-a em uma área VIP de nightclub de luxo, com neon rosa e roxo, sofás de veludo e garrafas de champanhe com sparklers ao fundo. Iluminação dramática de neon com bokeh. Enquadramento de meio corpo.",
-  "Rooftop com Champanhe":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com traje cocktail elegante — vestido midi de cetim ou terno bem cortado, segurando uma taça de champanhe. Coloque-a em um rooftop bar com skyline iluminada da cidade à noite ao fundo, luzes de bistrô penduradas e bokeh dourado. Iluminação âmbar quente e sofisticada. Enquadramento de meio corpo.",
+  "Tablet & Celular":
+    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com look smart-casual moderno — camisa bem cortada ou blazer de malha. Coloque-a em um home office contemporâneo e iluminado, segurando um tablet e um celular, com mesa minimalista, notebook e luz natural suave da janela ao fundo. Iluminação diurna limpa e arejada. Enquadramento de meio corpo.",
+  "Cafeteria Elegante":
+    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com look chic do dia a dia — casaco estiloso ou blusa elegante. Coloque-a em uma cafeteria artesanal sofisticada com tons de madeira quente, plantas penduradas e bar de café desfocado ao fundo, segurando uma xícara de café de cerâmica. Iluminação ambiente quente e aconchegante. Enquadramento de meio corpo.",
+  "Studio Cinematográfico":
+    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com traje editorial refinado — blazer alfaiatarizado ou vestido elegante. Coloque-a em um estúdio fotográfico profissional com iluminação cinematográfica: softbox grande como luz principal, contraluz e fundo infinito escuro, com leve névoa atmosférica. Iluminação de estúdio dramática e controlada, com sombras e realces profundos. Enquadramento de meio corpo.",
+  "Alfaiataria Editorial":
+    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com alfaiataria de alto luxo estilo 'O Diabo Veste Prada' — terno de grife perfeitamente ajustado com ombros estruturados, silhueta marcante, tecido premium, acessórios de impacto (luvas de couro, bolsa estruturada, saltos ou oxfords). Coloque-a em um cenário editorial de revista de moda: lobby de mármore com janelas do piso ao teto, atmosfera de semana de moda, equipe desfocada ao fundo. Iluminação editorial nítida e de alto contraste. Enquadramento de meio corpo.",
   "Sorriso — Fundo Verde":
     "MUDANÇA DE POSE E EXPRESSÃO: Mantenha a mesma pessoa e o figurino atual. Mude a expressão para um sorriso natural e caloroso, olhando diretamente para a câmera. Coloque-a sobre um fundo SÓLIDO CHROMA KEY VERDE (#00B140), iluminado uniformemente. Iluminação de estúdio com softbox no rosto. Enquadramento de meio corpo.",
   "Sério Profissional — Fundo Verde":

@@ -10,8 +10,8 @@ export const IDENTITY_LOCK_PT =
 
 // Tradução PT-BR dos prompts de cena por nome de estilo
 export const STYLE_PROMPTS_PT: Record<string, string> = {
-  "Tablet & Celular":
-    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com look smart-casual moderno — camisa bem cortada ou blazer de malha. Coloque-a em um home office contemporâneo e iluminado, segurando um tablet e um celular, com mesa minimalista, notebook e luz natural suave da janela ao fundo. Iluminação diurna limpa e arejada. Enquadramento de meio corpo.",
+  "Home Office":
+    "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com look smart-casual moderno — camisa bem cortada ou blazer de malha. Coloque-a em um home office contemporâneo e iluminado, com mesa minimalista, notebook aberto e luz natural suave da janela ao fundo. Iluminação diurna limpa e arejada. Enquadramento de meio corpo.",
   "Cafeteria Elegante":
     "MUDANÇA DE CENA APENAS: Vista a mesma pessoa com look chic do dia a dia — casaco estiloso ou blusa elegante. Coloque-a em uma cafeteria artesanal sofisticada com tons de madeira quente, plantas penduradas e bar de café desfocado ao fundo, segurando uma xícara de café de cerâmica. Iluminação ambiente quente e aconchegante. Enquadramento de meio corpo.",
   "Studio Cinematográfico":
@@ -53,11 +53,11 @@ export type StyleDefinition = {
 export const STYLE_DEFINITIONS: StyleDefinition[] = [
   // ===== Estilos / Lifestyle & Editorial =====
   {
-    name: "Tablet & Celular",
+    name: "Home Office",
     category: "Estilos",
-    description: "Home office moderno com dispositivos",
+    description: "Home office moderno e iluminado",
     prompt:
-      "SCENE CHANGE ONLY: Dress the same person in modern smart-casual tech attire — a crisp shirt or knit sweater. Place them in a bright contemporary home office, holding a tablet and a smartphone, with a minimalist desk, laptop and soft natural window light in the background. Clean, airy daylight lighting. Half-body framing.",
+      "SCENE CHANGE ONLY: Dress the same person in modern smart-casual attire — a crisp shirt or knit sweater. Place them in a bright contemporary home office, with a minimalist desk, open laptop and soft natural window light in the background. Clean, airy daylight lighting. Half-body framing.",
   },
   {
     name: "Cafeteria Elegante",

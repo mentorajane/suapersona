@@ -152,8 +152,8 @@ serve(async (req) => {
     const styles = [
       // Estilos — Lifestyle & Editorial
       {
-        name: "Tablet & Celular",
-        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in modern smart-casual tech attire — a crisp shirt or knit sweater. Place them in a bright contemporary home office, holding a tablet and a smartphone, with a minimalist desk, laptop and soft natural window light in the background. Clean, airy daylight lighting. Half-body framing."
+        name: "Home Office",
+        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in modern smart-casual attire — a crisp shirt or knit sweater. Place them in a bright contemporary home office, with a minimalist desk, open laptop and soft natural window light in the background. Clean, airy daylight lighting. Half-body framing."
       },
       {
         name: "Cafeteria Elegante",

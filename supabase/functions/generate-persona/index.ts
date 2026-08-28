@@ -153,7 +153,7 @@ serve(async (req) => {
       // Estilos — Lifestyle & Editorial
       {
         name: "Home Office",
-        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in modern smart-casual attire — a crisp shirt or knit sweater. Place them in a bright contemporary home office, with a minimalist desk, open laptop and soft natural window light in the background. Clean, airy daylight lighting. Half-body framing."
+        prompt: IDENTITY_LOCK + "SCENE CHANGE ONLY: Dress the same person in an entrepreneurial tailored look — a well-cut blazer with structured shoulders, tailored trousers, a silk camisole underneath, minimalist accessories (a slim watch, discreet earrings). Place them in a bright contemporary home office, with a minimalist desk, open laptop and soft natural window light in the background. Clean, airy daylight lighting. Half-body framing."
       },
       {
         name: "Cafeteria Elegante",
